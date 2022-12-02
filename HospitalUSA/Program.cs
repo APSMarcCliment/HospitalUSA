@@ -10,6 +10,9 @@ namespace HospitalUSA
     {
         static void Main(string[] args)
         {
+            List<Paciente> nombrePacientes= new List<Paciente>();
+            nombrePacientes.Add(new Paciente());
+
             Persona persona1 = new Persona("Marc", 25, 74839264, "Carrer del Gall");
             Persona persona2 = new Persona("Xavi", 27, 79289354, "Carrer del Llastics");
             Persona persona3 = new Persona("Laura", 18, 93846281, "Passeig de Fabra i Puig");
