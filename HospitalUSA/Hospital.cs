@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace HospitalUSA
 {
-    internal class Class1
+    public class Hospital
     {
+        private int pacientes;
+        private int habitaciones;
+
+        public Hospital(int pacientes, int habitaciones)
+        {
+            this.pacientes = pacientes;
+            this.habitaciones = habitaciones;
+        }
+        public Hospital() { }
+
+        public int getPacientes() { return pacientes; }
+        public int getHabitaciones() { return habitaciones; }
+        public void setPacientes(int pacientes)
+        {
+            this.setPacientes(pacientes);
+        }
+        public void setHabitaciones(int habitaciones)
+        {
+            this.setHabitaciones(habitaciones);
+        }
     }
 }

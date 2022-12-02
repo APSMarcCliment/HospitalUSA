@@ -27,7 +27,7 @@ namespace HospitalUSA
         }
         public void setEdad(int edad)
         {
-            this.edad = edad;
+            this.setEdad(edad);
         }
     }
     
