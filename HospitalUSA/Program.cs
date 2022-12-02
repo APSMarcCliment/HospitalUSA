@@ -10,6 +10,12 @@ namespace HospitalUSA
     {
         static void Main(string[] args)
         {
+            Persona persona1 = new Persona("Marc", 25, 74839264, "Carrer del Gall");
+            Persona persona2 = new Persona("Xavi", 27, 79289354, "Carrer del Llastics");
+            Persona persona3 = new Persona("Laura", 18, 93846281, "Passeig de Fabra i Puig");
+            Persona persona4 = new Persona("Anna", 29, 74928629, "Carrer del Gall");
+
+            
         }
     }
 }

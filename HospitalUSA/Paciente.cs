@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HospitalUSA
 {
-    public class Paciente
+    public class Paciente : Persona
     {
         private string diagnostico;
         private int diasIngreso;
@@ -31,7 +31,7 @@ namespace HospitalUSA
         public char getPronostico() { return pronostico; }
         public List<string> getMedicacion() { return medicacion; }
         public List<string> getPruebas() { return pruebas; }
-        public bool isCurado() { return true; }
+        public bool getCurado() { return true; }
         public void setDiagnostico(string diagnostico)
         {
             this.setDiagnostico(diagnostico);
