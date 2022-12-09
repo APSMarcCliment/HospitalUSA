@@ -15,6 +15,7 @@ namespace HospitalUSA
             int edad = 0;
             int dni = 0;
             string direccion = "";
+            bool curado = true;
 
             List<string> medicacion = new List<string>();
             medicacion.Add("Aspirina");
@@ -28,8 +29,8 @@ namespace HospitalUSA
             pruebas.Add("Medida Azucar");
             pruebas.Add("Prueba de esfuerzo");
             pruebas.Add("Escaner");
-
-            //List<Paciente> nombrePacientes= new List<Paciente>();
+            Paciente paciente = new Paciente();
+            List<Paciente> pacientesList = new List<Paciente>();
 
             //Persona persona1 = new Persona("Marc", 25, 74839264, "Carrer del Gall");
             //Persona persona2 = new Persona("Xavi", 27, 79289354, "Carrer del Llastics");
@@ -47,6 +48,7 @@ namespace HospitalUSA
                 switch (opcion)
                 {
                     case 1:
+                        
                         Console.WriteLine("Nombre?");
                         nombre = Console.ReadLine();
                         Console.WriteLine("Edad?");
@@ -55,15 +57,19 @@ namespace HospitalUSA
                         dni = int.Parse(Console.ReadLine()); ;
                         Console.WriteLine("Direccion?");
                         direccion = Console.ReadLine();
-                        Persona persona1 = new Persona(nombre, edad, dni, direccion);
+                        Persona persona = new Persona(nombre, edad, dni, direccion);
                         break;
                     case 2:
+                        pacientesList.Add(new Paciente());
                         break;
                     case 3:
+                        paciente.setCurado(false);
                         break;
                     case 4:
+                        paciente.setPruebas(pruebas);
                         break;
                     case 5:
+                        paciente.setMedicacion(medicacion);
                         break;
                     case 0:
                         Console.WriteLine("Gracias por usar este programa");
