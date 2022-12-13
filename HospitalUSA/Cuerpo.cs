@@ -11,6 +11,9 @@ namespace HospitalUSA
 
         private int id = 0;
         private string nombre = "";
+        var fecha;
+        var hora;
+
         public Cuerpo(int id, string nombre)
         {
             this.id = id;
@@ -27,6 +30,16 @@ namespace HospitalUSA
         public void setNombre(string nombre)
         {
             this.nombre = nombre;
+        }
+
+        public void setHora(var hora)
+        {
+            this.hora = hora;
+        }
+
+        public void setFecha(var fecha)
+        {
+            this.fecha = fecha;
         }
     }
 }

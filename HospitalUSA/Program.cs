@@ -10,18 +10,7 @@ namespace HospitalUSA
 {
     internal class Program
     {
-        /*static List<string> medicacion = new List<string>();
-        medicacion.Add("Aspirina");
-            medicacion.Add("Rinotizol");
-            medicacion.Add("Cascahueton");
-            medicacion.Add("Filecodeina");
-            medicacion.Add("Surnoretina");
-            static List<string> pruebas = new List<string>();
-        pruebas.Add("Rayos X");
-            pruebas.Add("TAC");
-            pruebas.Add("Medida Azucar");
-            pruebas.Add("Prueba de esfuerzo");
-            pruebas.Add("Escaner");*/
+
 
         static void Main(string[] args)
         {
@@ -59,19 +48,6 @@ namespace HospitalUSA
 
             Paciente paciente = new Paciente();
             List<Paciente> pacientesList = new List<Paciente>();
-
-            /*Medicamento aspirina = new Medicamento(medicacion[0]);
-            Medicamento rinotizol = new Medicamento(medicacion[1]);
-            Medicamento cascahueton = new Medicamento(medicacion[2]);
-            Medicamento filecodeina = new Medicamento(medicacion[3]);
-            Medicamento surnoretina = new Medicamento(medicacion[4]);*/
-
-            //Persona persona1 = new Persona("Marc", 25, 74839264, "Carrer del Gall");
-            //Persona persona2 = new Persona("Xavi", 27, 79289354, "Carrer del Llastics");
-            //Persona persona3 = new Persona("Laura", 18, 93846281, "Passeig de Fabra i Puig");
-            //Persona persona4 = new Persona("Anna", 29, 74928629, "Carrer del Gall");
-
-            
 
             while (opcion != 0)
             {
@@ -126,6 +102,8 @@ namespace HospitalUSA
                                     pacientesList.Remove(f);
                                 }
                             }
+                            cuerpo.setHora(DateTime.Now.ToString("hh:mm:ss"));
+                            cuerpo.setFecha(DateTime.Now.ToString("dd/MM/yyyy"))
                         }
                         else
                         {

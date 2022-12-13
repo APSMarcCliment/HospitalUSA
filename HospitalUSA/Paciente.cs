@@ -60,11 +60,9 @@ namespace HospitalUSA
         public void setMedicacion(List<Medicamento> medicacion)
         {
             this.medicacion = medicacion;
-
         }
         public void setPruebas(List<Prueba> pruebas)
         {
-            
             this.pruebas = pruebas;
         }
         public void setCurado(bool curado)
