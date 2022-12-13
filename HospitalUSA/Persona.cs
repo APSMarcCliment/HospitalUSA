@@ -8,10 +8,10 @@ namespace HospitalUSA
 {
     public class Persona
     {
-        private string nombre;
-        private int edad;
-        private int dni;
-        private string direccion;
+        private string nombre = "";
+        private int edad = 0;
+        private int dni = 0;
+        private string direccion = "";
 
         public Persona(string nombre, int edad, int dni, string direccion)
         {
@@ -29,19 +29,19 @@ namespace HospitalUSA
         public string getDireccion() { return direccion;}
         public void setNombre(string nombre)
         {
-            this.setNombre(nombre);
+            this.nombre = nombre;
         }
         public void setEdad(int edad)
         {
-            this.setEdad(edad);
+            this.edad = edad;
         }
         public void setDni(int dni)
         {
-            this.setDni(dni);
+            this.dni = dni;
         }
         public void setDireccion(string direccion)
         {
-            this.setDireccion(direccion);
+            this.direccion = direccion;
         }
     }
     

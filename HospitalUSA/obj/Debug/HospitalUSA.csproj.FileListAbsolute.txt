@@ -1,0 +1,8 @@
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\obj\Debug\HospitalUSA.csproj.AssemblyReference.cache
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\obj\Debug\HospitalUSA.csproj.SuggestedBindingRedirects.cache
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\obj\Debug\HospitalUSA.csproj.CoreCompileInputs.cache
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\bin\Debug\HospitalUSA.exe.config
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\bin\Debug\HospitalUSA.exe
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\bin\Debug\HospitalUSA.pdb
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\obj\Debug\HospitalUSA.exe
+C:\Users\marcc\source\repos\HospitalUSA\HospitalUSA\obj\Debug\HospitalUSA.pdb
